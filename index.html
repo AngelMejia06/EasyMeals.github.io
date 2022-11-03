@@ -46,15 +46,15 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="imgrecipies/slide1.png" alt="First slide" href="">
+          <img class="d-block w-100" src="IMGrecipies/slide1.png" alt="First slide" href="">
 
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="imgrecipies/slide2.png" alt="Second slide" href="">
+          <img class="d-block w-100" src="IMGrecipies/slide2.png" alt="Second slide" href="">
 
         </div>
         <div class="carousel-item">
-         <img class="d-block w-100" src="imgrecipies/slide3.png" alt="Third slide" href="">
+         <img class="d-block w-100" src="IMGrecipies/slide3.png" alt="Third slide" href="">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -70,48 +70,86 @@
 </header>
 
 <!--Primera seccion de Recipes-->
-<section class="recipes" id="recipes">
-  <h2 class="h2-recipes">Meals</h2>
-<div class="words-recipes">
-<p class="p-recipes">The importance of each meal</p>
-</div>
-<div class="card-deck">
-        <div class="card">
-          <img src="IMG/desayuno.png" class="card-img-top card-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Break Fast</h5>
-            <p class="card-text">Breakfast is considered the most important meal of 
-              the day because the food eaten is the first after a long period of fasting 
-              derived from sleeping hours; breakfast also precedes the hours of the day in
-               which the most activity is carried out.</p>
+
+<!--Segunda seccion de Routines-->
+<section id="recipies" class="recipes">
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center espacio">
+      <h2 class="h2-recipes">Mealtimes</h2>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        The importance of each meal
+      </p>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4 mb-5 mb-md-0 ">
+      <div class="seccion-routines"> <!--Seccion cards-->
+      <div class="card testimonial-card">
+        <div class="card-body">
+          <div class="avatar mx-auto bg-white posicion-b">
+            <img src="IMG/desayuno01.png"
+              class="rounded-circle img-fluid" />
           </div>
-        </div>
-        <div class="card">
-          <img src="IMG/almuerzo.png" class="card-img-top card-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Lunch</h5>
-            <p class="card-text">Lunch provides the energy the body 
-              needs to face any activity. Lunch is important to replenish energy, 
-              it gives a good dose of nutrients to your body. Lunch re-energizes your body, 
-              it can raise your blood sugar levels, 
-              so you can maintain your focus and concentration.</p>
+          <h4 class="mb-4">Break Fast</h4>
+          <hr/>
+          <p class="dark-grey-text mt-4">
+            Breakfast is considered the most important meal of 
+            the day because the food eaten is the first after a long period of fasting 
+            derived from sleeping hours; breakfast also precedes the hours of the day in
+             which the most activity is carried out.
+        </p>
           </div>
-        </div>
-        <div class="card">
-          <img src="IMG/cena.png" class="card-img-top card-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Dinner</h5>
-            <p class="card-text">Dinner should be light and not heavy. Our 
-              digestive system works when we sleep, that is why it is necessary 
-              that the dinner helps our body functions to develop correctly and to allow us a good rest.
-</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="seccion-routines"> <!--Seccion cards-->
+      <div class="card testimonial-card">
+        <div class="card-up"></div>
+        <div class="card-body">
+          <div class="avatar mx-auto bg-white">
+            <img src="IMG/almuerzo01.png"
+              class="rounded-circle img-fluid"/>
           </div>
+          <h4 class="mb-4">Lunch</h4>
+          <hr />
+          <p class="dark-grey-text mt-4" >Lunch provides the energy the body 
+            needs to face any activity. Lunch is important to replenish energy, 
+            it gives a good dose of nutrients to your body. Lunch re-energizes your body, 
+            it can raise your blood sugar levels, 
+            so you can maintain your focus and concentration.
+          </p>
         </div>
       </div>
+      </div>
+
+    </div>
+    <div class="col-md-4 mb-0">
+      <div class="seccion-routines"> <!--Seccion cards-->
+      <div class="card testimonial-card">
+        <div class="card-up"></div>
+
+        <div class="card-body">
+          <div class="avatar mx-auto bg-white">
+            <img src="IMG/cena01.png"
+              class="rounded-circle img-fluid" />
+          </div>
+          <h4 class="mb-4">Dinner</h4>
+          <hr/>
+          <p class="dark-grey-text mt-4">Dinner should be light and not heavy. Our 
+            digestive system works when we sleep, that is why it is necessary 
+            that the dinner helps our body functions to develop correctly and to allow us a good rest.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="button-recipes">
+    <a href="indexr.html" target="_blank"><button type="submit" class="button-web item tres"><b>Read more</b></button></a>
+    </div>
 </section>
-<div class="button-recipes">
-<a href="indexr.html" target="_blank"><button type="submit" class="button-web item tres"><b>Read more</b></button></a>
-</div>
+
 
 <!--Segunda seccion de Routines-->
 <section id="rutines" class="rutines">
@@ -187,7 +225,7 @@
     </div>
   </div>
   <div class="button-routines">
- <a href="03.html" target="_blank"> <button class="button-web item tres"><b>Read more</b></button></a>
+ <a href="/03.html" target="_blank"> <button class="button-web item tres"><b>Read more</b></button></a>
   </div>
 </section>
 
@@ -260,8 +298,8 @@
       <li class="nav-menu-item"><a href="indexr.html" class="nav-menu-link nav-link animacion dos">Recipes</a></li>
       <li class="nav-menu-item"><a href="03.html" class="nav-menu-link nav-link animacion tre">Routines</a></li>
       <div class="logo">
-        <a href="https://angelmejia06.github.io/EasyMeals.github.io/index.html">
-        <img src="imgrecipies/logo.png" alt="" class="img-logo">
+        <a href="index.html">
+        <img src="IMGrecipies/logo.png" alt="" class="img-logo">
       </a>
       </div>
       <h2 class="h2-nav">EASY MEALS</h2>
@@ -328,3 +366,4 @@
 </body>
 </script>
 </html>
+
